@@ -1,0 +1,442 @@
+14:20:46 - Starting servent [40|localhost|1800]
+14:20:46 - Pausing for 50000 ms
+14:21:36 - Pausing for 10000 ms
+14:21:46 - Pausing for 20000 ms
+14:22:06 - Pausing for 90000 ms
+14:22:06 - 1600 will add me.
+14:22:07 - Sending message [40|1800|0||NEW_NODE|1600|0]
+14:22:11 - Got message [48|1200|70||WELCOME|1800|40]
+14:22:12 - Sending message [40|1800|1||UPDATE|1200|48]
+14:22:14 - Got message [40|1800|73|1200,1600,1300,1400,1100|UPDATE|1800|40]
+14:22:14 - New chord state: All nodes: [[48|localhost|1200], [0|localhost|1600], [4|localhost|1300], [24|localhost|1400], [28|localhost|1100]]
+Successor table: [0] - [48|localhost|1200]
+[1] - [48|localhost|1200]
+[2] - [48|localhost|1200]
+[3] - [48|localhost|1200]
+[4] - [0|localhost|1600]
+[5] - [24|localhost|1400]
+ successorTable: [[48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [0|localhost|1600], [24|localhost|1400]]
+My values:
+{30=[Public] files/file0.txt, 31=[Public] files/file1.txt}
+14:22:15 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:15 - Sending message [40|1800|2||DONE_REORGANIZING|1200|48]
+14:22:15 - Sending message [40|1800|3||PING|1100|28]
+14:22:15 - Sending message [40|1800|4||PING|1200|48]
+14:22:15 - Got message [28|1100|75||PING|1800|40]
+14:22:16 - Got message [48|1200|75||PONG|1800|40]
+14:22:16 - Buddy 1200 responded with pong
+14:22:16 - Got message [28|1100|76||PONG|1800|40]
+14:22:16 - Buddy 1100 responded with pong
+14:22:16 - Sending message [40|1800|5||PONG|1100|28]
+14:22:16 - Got message [28|1100|77||SEND_BACKUP|1800|40]
+14:22:16 - Sending message [40|1800|6||SEND_BACKUP|1200|48]
+14:22:19 - Got message [20|1700|81|1400,1100|UPDATE|1800|40]
+14:22:19 - New chord state: All nodes: [[48|localhost|1200], [0|localhost|1600], [4|localhost|1300], [20|localhost|1700], [24|localhost|1400], [28|localhost|1100]]
+Successor table: [0] - [48|localhost|1200]
+[1] - [48|localhost|1200]
+[2] - [48|localhost|1200]
+[3] - [48|localhost|1200]
+[4] - [0|localhost|1600]
+[5] - [20|localhost|1700]
+ successorTable: [[48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [0|localhost|1600], [20|localhost|1700]]
+My values:
+{30=[Public] files/file0.txt, 31=[Public] files/file1.txt}
+14:22:19 - Got message [48|1200|82|31|ASK_GET|1800|40]
+14:22:20 - Sending message [20|1700|7|1400,1100,1800|UPDATE|1200|48]
+14:22:20 - Sending message [40|1800|8|31|TELL_GET|1200|48]
+14:22:21 - Both buddies responded with pong
+14:22:21 - Got message [28|1100|83||SEND_BACKUP|1800|40]
+14:22:21 - Sending message [40|1800|9||SEND_BACKUP|1200|48]
+14:22:22 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:22 - Sending message [40|1800|11||PING|1200|48]
+14:22:22 - Got message [28|1100|85||PING|1800|40]
+14:22:22 - Sending message [40|1800|10||PING|1100|28]
+14:22:23 - Sending message [40|1800|12||PONG|1100|28]
+14:22:23 - Got message [48|1200|83||PONG|1800|40]
+14:22:23 - Buddy 1200 responded with pong
+14:22:23 - Got message [28|1100|86||PONG|1800|40]
+14:22:23 - Buddy 1100 responded with pong
+14:22:26 - Got message [28|1100|87||SEND_BACKUP|1800|40]
+14:22:27 - Sending message [40|1800|13||SEND_BACKUP|1200|48]
+14:22:27 - Got message [28|1100|88|32|ADD_FILE|1800|40]
+14:22:27 - [File added] New chord state: All nodes: [[48|localhost|1200], [0|localhost|1600], [4|localhost|1300], [20|localhost|1700], [24|localhost|1400], [28|localhost|1100]]
+Successor table: [0] - [48|localhost|1200]
+[1] - [48|localhost|1200]
+[2] - [48|localhost|1200]
+[3] - [48|localhost|1200]
+[4] - [0|localhost|1600]
+[5] - [20|localhost|1700]
+ successorTable: [[48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [0|localhost|1600], [20|localhost|1700]]
+My values:
+{32=[Private] files/file2.txt, 30=[Public] files/file0.txt, 31=[Public] files/file1.txt}
+14:22:28 - Got message [48|1200|86||PING|1800|40]
+14:22:28 - Both buddies responded with pong
+14:22:28 - Sending message [40|1800|14||PONG|1200|48]
+14:22:29 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:29 - Sending message [40|1800|16||PING|1200|48]
+14:22:29 - Sending message [40|1800|15||PING|1100|28]
+14:22:29 - Got message [28|1100|90||PING|1800|40]
+14:22:30 - Got message [28|1100|91||PONG|1800|40]
+14:22:30 - Buddy 1100 responded with pong
+14:22:30 - Sending message [40|1800|17||PONG|1100|28]
+14:22:30 - Got message [48|1200|88||PONG|1800|40]
+14:22:30 - Buddy 1200 responded with pong
+14:22:31 - Got message [28|1100|92||SEND_BACKUP|1800|40]
+14:22:32 - Sending message [40|1800|18||SEND_BACKUP|1200|48]
+14:22:33 - Got message [0|1600|93|32|ASK_GET|1800|40]
+14:22:33 - Sending message [40|1800|19|32|TELL_GET|1600|0]
+14:22:35 - Both buddies responded with pong
+14:22:35 - Got message [48|1200|90||PING|1800|40]
+14:22:35 - Sending message [40|1800|20||PONG|1200|48]
+14:22:36 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:36 - Sending message [40|1800|23||SEND_BACKUP|1200|48]
+14:22:36 - Got message [28|1100|97||PING|1800|40]
+14:22:37 - Sending message [40|1800|22||PING|1200|48]
+14:22:37 - Sending message [40|1800|21||PING|1100|28]
+14:22:37 - Got message [28|1100|95||SEND_BACKUP|1800|40]
+14:22:37 - Sending message [40|1800|24||PONG|1100|28]
+14:22:37 - Got message [48|1200|94||PONG|1800|40]
+14:22:37 - Buddy 1200 responded with pong
+14:22:38 - Got message [28|1100|98||PONG|1800|40]
+14:22:38 - Buddy 1100 responded with pong
+14:22:41 - Sending message [40|1800|25||SEND_BACKUP|1200|48]
+14:22:42 - Both buddies responded with pong
+14:22:42 - Got message [28|1100|99||SEND_BACKUP|1800|40]
+14:22:42 - Got message [48|1200|97||PING|1800|40]
+14:22:43 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:43 - Sending message [40|1800|26||PONG|1200|48]
+14:22:43 - Sending message [40|1800|27||PING|1100|28]
+14:22:43 - Sending message [40|1800|28||PING|1200|48]
+14:22:44 - Got message [28|1100|102||PONG|1800|40]
+14:22:44 - Buddy 1100 responded with pong
+14:22:44 - Got message [28|1100|105||PING|1800|40]
+14:22:44 - Got message [48|1200|103|31|ASK_GET|1800|40]
+14:22:44 - Got message [48|1200|101||PONG|1800|40]
+14:22:44 - Buddy 1200 responded with pong
+14:22:44 - Sending message [40|1800|29||PONG|1100|28]
+14:22:44 - Sending message [40|1800|30|31|TELL_GET|1200|48]
+14:22:47 - Got message [28|1100|106||SEND_BACKUP|1800|40]
+14:22:47 - Sending message [40|1800|31||SEND_BACKUP|1200|48]
+14:22:49 - Both buddies responded with pong
+14:22:49 - Got message [48|1200|104||PING|1800|40]
+14:22:49 - Sending message [40|1800|32||PONG|1200|48]
+14:22:50 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:50 - Sending message [40|1800|34||PING|1200|48]
+14:22:50 - Sending message [40|1800|33||PING|1100|28]
+14:22:51 - Got message [28|1100|110||PONG|1800|40]
+14:22:51 - Buddy 1100 responded with pong
+14:22:51 - Got message [48|1200|106||PONG|1800|40]
+14:22:51 - Buddy 1200 responded with pong
+14:22:51 - Got message [28|1100|109||PING|1800|40]
+14:22:51 - Sending message [40|1800|35||PONG|1100|28]
+14:22:51 - Got message [28|1100|111||SEND_BACKUP|1800|40]
+14:22:52 - Sending message [40|1800|36||SEND_BACKUP|1200|48]
+14:22:55 - Got message [48|1200|108||PING|1800|40]
+14:22:56 - Both buddies responded with pong
+14:22:56 - Sending message [40|1800|37||PONG|1200|48]
+14:22:56 - Got message [28|1100|113||SEND_BACKUP|1800|40]
+14:22:57 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:22:57 - Sending message [40|1800|38||SEND_BACKUP|1200|48]
+14:22:57 - Sending message [40|1800|39||PING|1100|28]
+14:22:57 - Got message [28|1100|114||PONG|1800|40]
+14:22:57 - Buddy 1100 responded with pong
+14:22:57 - Sending message [40|1800|40||PING|1200|48]
+14:22:58 - Got message [48|1200|112||PONG|1800|40]
+14:22:58 - Buddy 1200 responded with pong
+14:22:58 - Got message [28|1100|116||PING|1800|40]
+14:22:58 - Sending message [40|1800|41||PONG|1100|28]
+14:23:01 - Got message [28|1100|117||SEND_BACKUP|1800|40]
+14:23:02 - Sending message [40|1800|42||SEND_BACKUP|1200|48]
+14:23:02 - Got message [48|1200|114||PING|1800|40]
+14:23:03 - Both buddies responded with pong
+14:23:03 - Sending message [40|1800|43||PONG|1200|48]
+14:23:04 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:04 - Sending message [40|1800|45||PING|1200|48]
+14:23:04 - Got message [48|1200|117||PONG|1800|40]
+14:23:04 - Buddy 1200 responded with pong
+14:23:05 - Got message [28|1100|120||PING|1800|40]
+14:23:05 - Sending message [40|1800|44||PING|1100|28]
+14:23:05 - Sending message [40|1800|46||PONG|1100|28]
+14:23:05 - Got message [28|1100|121||PONG|1800|40]
+14:23:05 - Buddy 1100 responded with pong
+14:23:06 - Sending message [40|1800|47||SEND_BACKUP|1200|48]
+14:23:07 - Got message [28|1100|122||SEND_BACKUP|1800|40]
+14:23:10 - Both buddies responded with pong
+14:23:10 - Got message [48|1200|120||PING|1800|40]
+14:23:11 - Sending message [40|1800|48||PONG|1200|48]
+14:23:11 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:11 - Sending message [40|1800|50||PING|1200|48]
+14:23:11 - Sending message [40|1800|49||PING|1100|28]
+14:23:11 - Got message [28|1100|126||PING|1800|40]
+14:23:11 - Sending message [40|1800|51||SEND_BACKUP|1200|48]
+14:23:12 - Got message [48|1200|122||PONG|1800|40]
+14:23:12 - Buddy 1200 responded with pong
+14:23:12 - Got message [28|1100|124||SEND_BACKUP|1800|40]
+14:23:12 - Got message [28|1100|127||PONG|1800|40]
+14:23:12 - Buddy 1100 responded with pong
+14:23:12 - Sending message [40|1800|52||PONG|1100|28]
+14:23:17 - Both buddies responded with pong
+14:23:17 - Got message [28|1100|129||SEND_BACKUP|1800|40]
+14:23:17 - Got message [48|1200|126||PING|1800|40]
+14:23:17 - Sending message [40|1800|53||SEND_BACKUP|1200|48]
+14:23:18 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:18 - Sending message [40|1800|54||PONG|1200|48]
+14:23:18 - Sending message [40|1800|55||PING|1100|28]
+14:23:19 - Sending message [40|1800|56||PING|1200|48]
+14:23:19 - Got message [28|1100|132||PING|1800|40]
+14:23:19 - Got message [28|1100|130||PONG|1800|40]
+14:23:19 - Buddy 1100 responded with pong
+14:23:19 - Got message [48|1200|128||PONG|1800|40]
+14:23:19 - Buddy 1200 responded with pong
+14:23:20 - Sending message [40|1800|57||PONG|1100|28]
+14:23:21 - Sending message [40|1800|58||SEND_BACKUP|1200|48]
+14:23:22 - Got message [28|1100|133||SEND_BACKUP|1800|40]
+14:23:24 - Both buddies responded with pong
+14:23:24 - Got message [48|1200|130||PING|1800|40]
+14:23:25 - Sending message [40|1800|59||PONG|1200|48]
+14:23:25 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:25 - Sending message [40|1800|60||PING|1100|28]
+14:23:25 - Sending message [40|1800|61||PING|1200|48]
+14:23:25 - Got message [28|1100|136||PING|1800|40]
+14:23:26 - Got message [48|1200|133||PONG|1800|40]
+14:23:26 - Buddy 1200 responded with pong
+14:23:26 - Sending message [40|1800|62||PONG|1100|28]
+14:23:26 - Got message [28|1100|137||PONG|1800|40]
+14:23:26 - Buddy 1100 responded with pong
+14:23:27 - Got message [28|1100|138||SEND_BACKUP|1800|40]
+14:23:27 - Sending message [40|1800|63||SEND_BACKUP|1200|48]
+14:23:30 - Got message [48|1200|136||PING|1800|40]
+14:23:31 - Both buddies responded with pong
+14:23:31 - Sending message [40|1800|64||PONG|1200|48]
+14:23:32 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:32 - Got message [28|1100|140||SEND_BACKUP|1800|40]
+14:23:32 - Sending message [40|1800|65||SEND_BACKUP|1200|48]
+14:23:32 - Sending message [40|1800|67||PING|1200|48]
+14:23:32 - Sending message [40|1800|66||PING|1100|28]
+14:23:33 - Got message [48|1200|139||PONG|1800|40]
+14:23:33 - Buddy 1200 responded with pong
+14:23:33 - Got message [28|1100|142||PING|1800|40]
+14:23:33 - Got message [28|1100|143||PONG|1800|40]
+14:23:33 - Buddy 1100 responded with pong
+14:23:34 - Sending message [40|1800|68||PONG|1100|28]
+14:23:36 - Pausing for 90000 ms
+14:23:37 - Sending message [40|1800|69||SEND_BACKUP|1200|48]
+14:23:37 - Got message [28|1100|144||SEND_BACKUP|1800|40]
+14:23:38 - Got message [48|1200|142||PING|1800|40]
+14:23:38 - Both buddies responded with pong
+14:23:38 - Sending message [40|1800|70||PONG|1200|48]
+14:23:38 - Got message [24|1400|146|32|ASK_GET|1800|40]
+14:23:38 - Sending message [40|1800|71|32|TELL_GET|1400|24]
+14:23:39 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:39 - Sending message [40|1800|73||PING|1200|48]
+14:23:39 - Sending message [40|1800|72||PING|1100|28]
+14:23:40 - Got message [28|1100|149||PONG|1800|40]
+14:23:40 - Buddy 1100 responded with pong
+14:23:40 - Got message [48|1200|144||PONG|1800|40]
+14:23:40 - Buddy 1200 responded with pong
+14:23:40 - Got message [28|1100|148||PING|1800|40]
+14:23:41 - Sending message [40|1800|74||PONG|1100|28]
+14:23:42 - Sending message [40|1800|75||SEND_BACKUP|1200|48]
+14:23:42 - Got message [28|1100|150||SEND_BACKUP|1800|40]
+14:23:45 - Got message [48|1200|147||PING|1800|40]
+14:23:45 - Both buddies responded with pong
+14:23:45 - Sending message [40|1800|76||PONG|1200|48]
+14:23:46 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:46 - Sending message [40|1800|77||PING|1100|28]
+14:23:46 - Sending message [40|1800|78||PING|1200|48]
+14:23:46 - Got message [28|1100|152||SEND_BACKUP|1800|40]
+14:23:47 - Sending message [40|1800|79||SEND_BACKUP|1200|48]
+14:23:47 - Got message [28|1100|153||PONG|1800|40]
+14:23:47 - Buddy 1100 responded with pong
+14:23:47 - Got message [48|1200|150||PONG|1800|40]
+14:23:47 - Buddy 1200 responded with pong
+14:23:47 - Got message [28|1100|155||PING|1800|40]
+14:23:48 - Sending message [40|1800|80||PONG|1100|28]
+14:23:52 - Sending message [40|1800|81||SEND_BACKUP|1200|48]
+14:23:52 - Both buddies responded with pong
+14:23:52 - Got message [28|1100|157||SEND_BACKUP|1800|40]
+14:23:52 - Got message [48|1200|153||PING|1800|40]
+14:23:52 - Sending message [40|1800|82||PONG|1200|48]
+14:23:53 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:23:53 - Sending message [40|1800|84||PING|1200|48]
+14:23:54 - Sending message [40|1800|83||PING|1100|28]
+14:23:54 - Got message [28|1100|159||PING|1800|40]
+14:23:54 - Got message [48|1200|155||PONG|1800|40]
+14:23:54 - Buddy 1200 responded with pong
+14:23:55 - Got message [28|1100|160||PONG|1800|40]
+14:23:55 - Buddy 1100 responded with pong
+14:23:55 - Sending message [40|1800|85||PONG|1100|28]
+14:23:56 - Sending message [40|1800|86||SEND_BACKUP|1200|48]
+14:23:57 - Got message [28|1100|161||SEND_BACKUP|1800|40]
+14:23:59 - Got message [48|1200|157||PING|1800|40]
+14:23:59 - Both buddies responded with pong
+14:23:59 - Sending message [40|1800|87||PONG|1200|48]
+14:24:00 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:00 - Sending message [40|1800|89||PING|1200|48]
+14:24:00 - Sending message [40|1800|88||PING|1100|28]
+14:24:01 - Got message [48|1200|160||PONG|1800|40]
+14:24:01 - Buddy 1200 responded with pong
+14:24:01 - Got message [28|1100|163||PING|1800|40]
+14:24:01 - Got message [28|1100|164||PONG|1800|40]
+14:24:01 - Buddy 1100 responded with pong
+14:24:01 - Got message [28|1100|165||SEND_BACKUP|1800|40]
+14:24:02 - Sending message [40|1800|90||SEND_BACKUP|1200|48]
+14:24:02 - Sending message [40|1800|91||PONG|1100|28]
+14:24:06 - Both buddies responded with pong
+14:24:06 - Got message [48|1200|163||PING|1800|40]
+14:24:06 - Sending message [40|1800|92||PONG|1200|48]
+14:24:07 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:07 - Got message [28|1100|166||SEND_BACKUP|1800|40]
+14:24:07 - Sending message [40|1800|93||SEND_BACKUP|1200|48]
+14:24:07 - Sending message [40|1800|95||PING|1200|48]
+14:24:07 - Sending message [40|1800|94||PING|1100|28]
+14:24:07 - Got message [28|1100|169||PING|1800|40]
+14:24:08 - Got message [4|1300|114|1700|FAILED_NODE|1800|40]
+14:24:08 - Got message [28|1100|170||PONG|1800|40]
+14:24:08 - Buddy 1100 responded with pong
+14:24:08 - Got message [48|1200|167||PONG|1800|40]
+14:24:08 - Buddy 1200 responded with pong
+14:24:08 - Sending message [40|1800|97|1700|FAILED_NODE_CONFIRM|1300|4]
+14:24:08 - Sending message [40|1800|96||PONG|1100|28]
+14:24:08 - Got message [24|1400|115|1700|FAILED_NODE|1800|40]
+14:24:08 - Got message [24|1400|172|1700|REMOVE_NODE|1800|40]
+14:24:08 - After remove nodes: [[48|localhost|1200], [0|localhost|1600], [4|localhost|1300], [24|localhost|1400], [28|localhost|1100]]
+14:24:08 - New chord state: All nodes: [[48|localhost|1200], [0|localhost|1600], [4|localhost|1300], [24|localhost|1400], [28|localhost|1100]]
+Successor table: [0] - [48|localhost|1200]
+[1] - [48|localhost|1200]
+[2] - [48|localhost|1200]
+[3] - [48|localhost|1200]
+[4] - [0|localhost|1600]
+[5] - [24|localhost|1400]
+ successorTable: [[48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [48|localhost|1200], [0|localhost|1600], [24|localhost|1400]]
+My values:
+{32=[Private] files/file2.txt, 30=[Public] files/file0.txt, 31=[Public] files/file1.txt}
+14:24:08 - Failed node with port 1700 removed, sending message to successor
+14:24:08 - Sending remove message to 1200
+14:24:08 - Got message [24|1400|121|1700|REMOVE_NODE|1800|40]
+14:24:08 - Failed node with port 1700 removed, sending message to successor
+14:24:08 - Sending remove message to 1200
+14:24:09 - Sending message [24|1400|100|1700|REMOVE_NODE|1200|48]
+14:24:09 - Sending message [40|1800|98|1700|FAILED_NODE_CONFIRM|1400|24]
+14:24:09 - Sending message [24|1400|99|1700|REMOVE_NODE|1200|48]
+14:24:12 - Sending message [40|1800|101||SEND_BACKUP|1200|48]
+14:24:12 - Got message [28|1100|174||SEND_BACKUP|1800|40]
+14:24:13 - Both buddies responded with pong
+14:24:13 - Got message [48|1200|173||PING|1800|40]
+14:24:14 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:14 - Sending message [40|1800|102||PONG|1200|48]
+14:24:14 - Sending message [40|1800|104||PING|1200|48]
+14:24:14 - Sending message [40|1800|103||PING|1100|28]
+14:24:15 - Got message [48|1200|176||PONG|1800|40]
+14:24:15 - Buddy 1200 responded with pong
+14:24:15 - Got message [28|1100|175||PONG|1800|40]
+14:24:15 - Buddy 1100 responded with pong
+14:24:15 - Got message [28|1100|177||PING|1800|40]
+14:24:16 - Sending message [40|1800|105||PONG|1100|28]
+14:24:17 - Got message [28|1100|178||SEND_BACKUP|1800|40]
+14:24:17 - Sending message [40|1800|106||SEND_BACKUP|1200|48]
+14:24:19 - Got message [48|1200|178||PING|1800|40]
+14:24:20 - Both buddies responded with pong
+14:24:20 - Sending message [40|1800|107||PONG|1200|48]
+14:24:21 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:22 - Sending message [40|1800|109||PING|1200|48]
+14:24:22 - Sending message [40|1800|108||PING|1100|28]
+14:24:22 - Got message [28|1100|180||SEND_BACKUP|1800|40]
+14:24:22 - Sending message [40|1800|110||SEND_BACKUP|1200|48]
+14:24:22 - Got message [28|1100|182||PING|1800|40]
+14:24:22 - Sending message [40|1800|111||PONG|1100|28]
+14:24:22 - Got message [28|1100|183||PONG|1800|40]
+14:24:22 - Buddy 1100 responded with pong
+14:24:22 - Got message [48|1200|182||PONG|1800|40]
+14:24:22 - Buddy 1200 responded with pong
+14:24:27 - Got message [28|1100|185||SEND_BACKUP|1800|40]
+14:24:27 - Both buddies responded with pong
+14:24:27 - Got message [48|1200|185||PING|1800|40]
+14:24:27 - Sending message [40|1800|112||SEND_BACKUP|1200|48]
+14:24:27 - Sending message [40|1800|113||PONG|1200|48]
+14:24:28 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:28 - Sending message [40|1800|114||PING|1100|28]
+14:24:29 - Sending message [40|1800|115||PING|1200|48]
+14:24:29 - Got message [28|1100|187||PING|1800|40]
+14:24:29 - Got message [28|1100|188||PONG|1800|40]
+14:24:29 - Buddy 1100 responded with pong
+14:24:30 - Sending message [40|1800|116||PONG|1100|28]
+14:24:30 - Got message [48|1200|187||PONG|1800|40]
+14:24:30 - Buddy 1200 responded with pong
+14:24:32 - Sending message [40|1800|117||SEND_BACKUP|1200|48]
+14:24:32 - Got message [28|1100|189||SEND_BACKUP|1800|40]
+14:24:34 - Got message [48|1200|190||PING|1800|40]
+14:24:34 - Both buddies responded with pong
+14:24:34 - Sending message [40|1800|118||PONG|1200|48]
+14:24:35 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:35 - Sending message [40|1800|119||PING|1100|28]
+14:24:36 - Got message [28|1100|193||PONG|1800|40]
+14:24:36 - Buddy 1100 responded with pong
+14:24:36 - Sending message [40|1800|120||PING|1200|48]
+14:24:36 - Got message [28|1100|192||PING|1800|40]
+14:24:36 - Got message [28|1100|194||SEND_BACKUP|1800|40]
+14:24:37 - Sending message [40|1800|121||SEND_BACKUP|1200|48]
+14:24:37 - Got message [48|1200|192||PONG|1800|40]
+14:24:37 - Buddy 1200 responded with pong
+14:24:37 - Sending message [40|1800|122||PONG|1100|28]
+14:24:41 - Both buddies responded with pong
+14:24:41 - Got message [48|1200|194||PING|1800|40]
+14:24:42 - Got message [28|1100|196||SEND_BACKUP|1800|40]
+14:24:42 - Sending message [40|1800|123||PONG|1200|48]
+14:24:42 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:42 - Sending message [40|1800|124||SEND_BACKUP|1200|48]
+14:24:42 - Sending message [40|1800|126||PING|1200|48]
+14:24:43 - Sending message [40|1800|125||PING|1100|28]
+14:24:43 - Got message [28|1100|198||PING|1800|40]
+14:24:43 - Got message [48|1200|198||PONG|1800|40]
+14:24:43 - Buddy 1200 responded with pong
+14:24:43 - Got message [28|1100|199||PONG|1800|40]
+14:24:43 - Buddy 1100 responded with pong
+14:24:43 - Sending message [40|1800|127||PONG|1100|28]
+14:24:47 - Sending message [40|1800|128||SEND_BACKUP|1200|48]
+14:24:47 - Got message [28|1100|201||SEND_BACKUP|1800|40]
+14:24:48 - Got message [48|1200|200||PING|1800|40]
+14:24:48 - Both buddies responded with pong
+14:24:49 - Sending message [40|1800|129||PONG|1200|48]
+14:24:49 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:49 - Sending message [40|1800|131||PING|1200|48]
+14:24:50 - Sending message [40|1800|130||PING|1100|28]
+14:24:50 - Got message [28|1100|203||PING|1800|40]
+14:24:50 - Got message [48|1200|203||PONG|1800|40]
+14:24:50 - Buddy 1200 responded with pong
+14:24:50 - Got message [28|1100|204||PONG|1800|40]
+14:24:50 - Buddy 1100 responded with pong
+14:24:50 - Sending message [40|1800|132||PONG|1100|28]
+14:24:52 - Got message [28|1100|205||SEND_BACKUP|1800|40]
+14:24:52 - Sending message [40|1800|133||SEND_BACKUP|1200|48]
+14:24:55 - Both buddies responded with pong
+14:24:55 - Got message [48|1200|206||PING|1800|40]
+14:24:56 - Sending message [40|1800|134||PONG|1200|48]
+14:24:56 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:24:56 - Sending message [40|1800|135||PING|1100|28]
+14:24:56 - Sending message [40|1800|136||PING|1200|48]
+14:24:57 - Sending message [40|1800|137||SEND_BACKUP|1200|48]
+14:24:57 - Got message [28|1100|210||PING|1800|40]
+14:24:57 - Got message [28|1100|207||SEND_BACKUP|1800|40]
+14:24:57 - Got message [28|1100|208||PONG|1800|40]
+14:24:57 - Buddy 1100 responded with pong
+14:24:57 - Got message [48|1200|209||PONG|1800|40]
+14:24:57 - Buddy 1200 responded with pong
+14:24:57 - Sending message [40|1800|138||PONG|1100|28]
+14:25:01 - Got message [28|1100|212||SEND_BACKUP|1800|40]
+14:25:02 - Sending message [40|1800|139||SEND_BACKUP|1200|48]
+14:25:02 - Both buddies responded with pong
+14:25:02 - Got message [48|1200|211||PING|1800|40]
+14:25:03 - Pinging buddies: [28|localhost|1100], [48|localhost|1200]
+14:25:03 - Sending message [40|1800|140||PONG|1200|48]
+14:25:04 - Sending message [40|1800|141||PING|1100|28]
+14:25:04 - Sending message [40|1800|142||PING|1200|48]
+14:25:04 - Got message [28|1100|214||PING|1800|40]
+14:25:04 - Got message [28|1100|215||PONG|1800|40]
+14:25:04 - Buddy 1100 responded with pong
+14:25:04 - Sending message [40|1800|143||PONG|1100|28]
+14:25:05 - Got message [48|1200|213||PONG|1800|40]
+14:25:05 - Buddy 1200 responded with pong
+14:25:06 - Stopping...
+14:25:06 - Sending message [40|1800|144||SEND_BACKUP|1200|48]
+14:25:09 - Both buddies responded with pong

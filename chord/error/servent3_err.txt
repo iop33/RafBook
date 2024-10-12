@@ -1,0 +1,20 @@
+14:23:37 - Error while reading file: WAIT
+14:24:08 - Couldn't send message: [24|1400|119|1700|FAILED_NODE|1700|20] - Connection refused: connect - null
+14:25:12 - Couldn't send message: [24|1400|170||SEND_BACKUP|1100|28] - Connection refused: connect - null
+14:25:13 - Couldn't send message: [24|1400|172||IS_ALIVE|1100|28] - Connection refused: connect - null
+14:25:17 - Couldn't send message: [24|1400|173||SEND_BACKUP|1100|28] - Connection refused: connect - null
+14:25:22 - Couldn't send message: [24|1400|175||SEND_BACKUP|1100|28] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|180|1300|FAILED_NODE|1300|4] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|181|1300|REMOVE_NODE|1100|28] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|179|1300|FAILED_NODE|1600|0] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|184|1300|REMOVE_NODE|1600|0] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|176|1300|FAILED_NODE|1100|28] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|177|1300|FAILED_NODE|1800|40] - Connection refused: connect - null
+14:25:24 - Couldn't send message: [24|1400|182|1300|REMOVE_NODE|1800|40] - Connection refused: connect - null
+14:25:27 - Couldn't send message: [24|1400|185||SEND_BACKUP|1100|28] - Connection refused: connect - null
+14:25:32 - Couldn't send message: [24|1400|186||SEND_BACKUP|1100|28] - Connection refused: connect - null
+14:25:36 - Couldn't send message: [24|1400|190|1100|FAILED_NODE|1600|0] - Connection refused: connect - null
+14:25:36 - Couldn't send message: [24|1400|187|1100|FAILED_NODE|1100|28] - Connection refused: connect - null
+14:25:36 - Couldn't send message: [24|1400|189|1100|FAILED_NODE|1200|48] - Connection refused: connect - null
+14:25:36 - Couldn't send message: [24|1400|191||SEND_BACKUP|1100|28] - Connection refused: connect - null
+14:25:37 - Couldn't send message: [24|1400|188|1100|FAILED_NODE|1800|40] - Connection refused: connect - null

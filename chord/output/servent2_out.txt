@@ -1,0 +1,509 @@
+14:20:46 - Starting servent [4|localhost|1300]
+14:20:46 - Pausing for 20000 ms
+14:21:06 - Pausing for 40000 ms
+14:21:46 - Pausing for 20000 ms
+14:21:46 - 1100 will add me.
+14:21:47 - Sending message [4|1300|0||NEW_NODE|1100|28]
+14:21:47 - Got message [28|1100|43||WELCOME|1300|4]
+14:21:48 - Got message [28|1100|44||PING|1300|4]
+14:21:48 - Sending message [4|1300|1||UPDATE|1100|28]
+14:21:48 - Sending message [4|1300|2||PONG|1100|28]
+14:21:50 - Got message [4|1300|20|1100,1200,1600|UPDATE|1300|4]
+14:21:50 - New chord state: All nodes: [[28|localhost|1100], [48|localhost|1200], [0|localhost|1600]]
+Successor table: [0] - [28|localhost|1100]
+[1] - [28|localhost|1100]
+[2] - [28|localhost|1100]
+[3] - [28|localhost|1100]
+[4] - [28|localhost|1100]
+[5] - [48|localhost|1200]
+ successorTable: [[28|localhost|1100], [28|localhost|1100], [28|localhost|1100], [28|localhost|1100], [28|localhost|1100], [48|localhost|1200]]
+My values:
+{}
+14:21:50 - Pinging buddies: [0|localhost|1600], [28|localhost|1100]
+14:21:51 - Sending message [4|1300|3||DONE_REORGANIZING|1100|28]
+14:21:51 - Sending message [4|1300|4||PING|1600|0]
+14:21:51 - Sending message [4|1300|5||PING|1100|28]
+14:21:52 - Got message [0|1600|21||SEND_BACKUP|1300|4]
+14:21:52 - Got message [0|1600|24||PONG|1300|4]
+14:21:52 - Buddy 1600 responded with pong
+14:21:52 - Got message [28|1100|50||PONG|1300|4]
+14:21:52 - Buddy 1100 responded with pong
+14:21:52 - Sending message [4|1300|6||SEND_BACKUP|1100|28]
+14:21:52 - Got message [0|1600|23||PING|1300|4]
+14:21:53 - Sending message [4|1300|7||PONG|1600|0]
+14:21:53 - Got message [24|1400|25|1100,1200,1600|UPDATE|1300|4]
+14:21:53 - New chord state: All nodes: [[24|localhost|1400], [28|localhost|1100], [48|localhost|1200], [0|localhost|1600]]
+Successor table: [0] - [24|localhost|1400]
+[1] - [24|localhost|1400]
+[2] - [24|localhost|1400]
+[3] - [24|localhost|1400]
+[4] - [24|localhost|1400]
+[5] - [48|localhost|1200]
+ successorTable: [[24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [48|localhost|1200]]
+My values:
+{}
+14:21:54 - Sending message [24|1400|8|1100,1200,1600,1300|UPDATE|1400|24]
+14:21:55 - Got message [24|1400|3||PING|1300|4]
+14:21:55 - Sending message [4|1300|9||PONG|1400|24]
+14:21:56 - Got message [0|1600|27||SEND_BACKUP|1300|4]
+14:21:56 - Both buddies responded with pong
+14:21:57 - Sending message [4|1300|10||SEND_BACKUP|1400|24]
+14:21:57 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:21:58 - Sending message [4|1300|11||PING|1600|0]
+14:21:58 - Sending message [4|1300|12||PING|1400|24]
+14:21:59 - Got message [0|1600|28||PONG|1300|4]
+14:21:59 - Buddy 1600 responded with pong
+14:21:59 - Got message [24|1400|7||PONG|1300|4]
+14:21:59 - Buddy 1400 responded with pong
+14:21:59 - Got message [0|1600|30||PING|1300|4]
+14:22:00 - Sending message [4|1300|13||PONG|1600|0]
+14:22:01 - Got message [0|1600|31||SEND_BACKUP|1300|4]
+14:22:01 - Sending message [4|1300|14||SEND_BACKUP|1400|24]
+14:22:02 - Got message [24|1400|9||PING|1300|4]
+14:22:03 - Sending message [4|1300|15||PONG|1400|24]
+14:22:03 - Both buddies responded with pong
+14:22:04 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:22:05 - Sending message [4|1300|17||PING|1400|24]
+14:22:05 - Sending message [4|1300|16||PING|1600|0]
+14:22:06 - Got message [0|1600|34||PING|1300|4]
+14:22:06 - Got message [0|1600|35||PONG|1300|4]
+14:22:06 - Buddy 1600 responded with pong
+14:22:06 - Got message [24|1400|12||PONG|1300|4]
+14:22:06 - Buddy 1400 responded with pong
+14:22:06 - Pausing for 20000 ms
+14:22:06 - Sending message [4|1300|19||SEND_BACKUP|1400|24]
+14:22:06 - Sending message [4|1300|18||PONG|1600|0]
+14:22:07 - Got message [0|1600|36||SEND_BACKUP|1300|4]
+14:22:09 - Got message [20|1700|38||NEW_NODE|1300|4]
+14:22:09 - Got message [24|1400|17||PING|1300|4]
+14:22:10 - Got message [48|1200|67||SUZUKI_REQUEST|1300|4]
+14:22:10 - Token requested from 1200, MutexState {
+  hasToken: false,
+  inCriticalSection: false,
+  RN: {},
+  Token: null
+}
+14:22:10 - Sending message [4|1300|21||PONG|1400|24]
+14:22:10 - Sending message [20|1700|20||NEW_NODE|1400|24]
+14:22:10 - Both buddies responded with pong
+14:22:11 - Got message [24|1400|22||SUZUKI_REQUEST|1300|4]
+14:22:11 - Token requested from 1400, MutexState {
+  hasToken: false,
+  inCriticalSection: false,
+  RN: {Port 1200: 1, },
+  Token: null
+}
+14:22:11 - Got message [0|1600|40||SEND_BACKUP|1300|4]
+14:22:11 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:22:12 - Sending message [4|1300|22||SEND_BACKUP|1400|24]
+14:22:12 - Sending message [4|1300|24||PING|1400|24]
+14:22:12 - Sending message [4|1300|23||PING|1600|0]
+14:22:13 - Got message [24|1400|24||PONG|1300|4]
+14:22:13 - Buddy 1400 responded with pong
+14:22:13 - Got message [0|1600|41||PONG|1300|4]
+14:22:13 - Buddy 1600 responded with pong
+14:22:13 - Got message [40|1800|44|1200,1600|UPDATE|1300|4]
+14:22:13 - New chord state: All nodes: [[24|localhost|1400], [28|localhost|1100], [40|localhost|1800], [48|localhost|1200], [0|localhost|1600]]
+Successor table: [0] - [24|localhost|1400]
+[1] - [24|localhost|1400]
+[2] - [24|localhost|1400]
+[3] - [24|localhost|1400]
+[4] - [24|localhost|1400]
+[5] - [40|localhost|1800]
+ successorTable: [[24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [40|localhost|1800]]
+My values:
+{}
+14:22:13 - Got message [0|1600|43||PING|1300|4]
+14:22:13 - Sending message [40|1800|25|1200,1600,1300|UPDATE|1400|24]
+14:22:14 - Sending message [4|1300|26||PONG|1600|0]
+14:22:16 - Got message [24|1400|26||PING|1300|4]
+14:22:16 - Sending message [4|1300|28||PONG|1400|24]
+14:22:17 - Sending message [4|1300|27||SEND_BACKUP|1400|24]
+14:22:17 - Got message [0|1600|45||SEND_BACKUP|1300|4]
+14:22:17 - Both buddies responded with pong
+14:22:18 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:22:19 - Sending message [4|1300|30||PING|1400|24]
+14:22:19 - Sending message [4|1300|29||PING|1600|0]
+14:22:20 - Got message [24|1400|33||PONG|1300|4]
+14:22:20 - Buddy 1400 responded with pong
+14:22:20 - Got message [0|1600|47||PONG|1300|4]
+14:22:20 - Buddy 1600 responded with pong
+14:22:20 - Got message [0|1600|49||PING|1300|4]
+14:22:20 - Got message [20|1700|50|1400,1100,1800,1200,1600|UPDATE|1300|4]
+14:22:20 - New chord state: All nodes: [[20|localhost|1700], [24|localhost|1400], [28|localhost|1100], [40|localhost|1800], [48|localhost|1200], [0|localhost|1600]]
+Successor table: [0] - [20|localhost|1700]
+[1] - [20|localhost|1700]
+[2] - [20|localhost|1700]
+[3] - [20|localhost|1700]
+[4] - [20|localhost|1700]
+[5] - [40|localhost|1800]
+ successorTable: [[20|localhost|1700], [20|localhost|1700], [20|localhost|1700], [20|localhost|1700], [20|localhost|1700], [40|localhost|1800]]
+My values:
+{}
+14:22:21 - Sending message [4|1300|31||PONG|1600|0]
+14:22:21 - Sending message [20|1700|32|1400,1100,1800,1200,1600,1300|UPDATE|1700|20]
+14:22:21 - Got message [0|1600|51||SEND_BACKUP|1300|4]
+14:22:21 - Sending message [4|1300|33||SEND_BACKUP|1700|20]
+14:22:22 - Got message [20|1700|5||PING|1300|4]
+14:22:23 - Sending message [4|1300|34||PONG|1700|20]
+14:22:24 - Both buddies responded with pong
+14:22:25 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:22:26 - Sending message [4|1300|35||PING|1600|0]
+14:22:26 - Pausing for 40000 ms
+14:22:26 - Got message [0|1600|53||PONG|1300|4]
+14:22:26 - Buddy 1600 responded with pong
+14:22:26 - Sending message [4|1300|36||PING|1700|20]
+14:22:27 - Got message [0|1600|56||PING|1300|4]
+14:22:27 - Sending message [4|1300|37||SEND_BACKUP|1700|20]
+14:22:27 - Got message [0|1600|54||SEND_BACKUP|1300|4]
+14:22:27 - Got message [20|1700|9||PONG|1300|4]
+14:22:27 - Buddy 1700 responded with pong
+14:22:27 - Sending message [4|1300|38||PONG|1600|0]
+14:22:29 - Got message [20|1700|10||PING|1300|4]
+14:22:30 - Sending message [4|1300|39||PONG|1700|20]
+14:22:31 - Got message [0|1600|59||SEND_BACKUP|1300|4]
+14:22:31 - Sending message [4|1300|40||SEND_BACKUP|1700|20]
+14:22:31 - Both buddies responded with pong
+14:22:32 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:22:33 - Sending message [4|1300|41||PING|1600|0]
+14:22:33 - Sending message [4|1300|42||PING|1700|20]
+14:22:34 - Got message [20|1700|14||PONG|1300|4]
+14:22:34 - Buddy 1700 responded with pong
+14:22:34 - Got message [0|1600|60||PONG|1300|4]
+14:22:34 - Buddy 1600 responded with pong
+14:22:34 - Got message [0|1600|62||PING|1300|4]
+14:22:35 - Sending message [4|1300|43||PONG|1600|0]
+14:22:36 - Got message [20|1700|16||PING|1300|4]
+14:22:36 - Sending message [4|1300|44||SEND_BACKUP|1700|20]
+14:22:37 - Sending message [4|1300|45||PONG|1700|20]
+14:22:37 - Got message [0|1600|64||SEND_BACKUP|1300|4]
+14:22:38 - Both buddies responded with pong
+14:22:39 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:22:40 - Sending message [4|1300|47||PING|1700|20]
+14:22:40 - Sending message [4|1300|46||PING|1600|0]
+14:22:41 - Got message [0|1600|66||PING|1300|4]
+14:22:41 - Got message [20|1700|19||PONG|1300|4]
+14:22:41 - Buddy 1700 responded with pong
+14:22:41 - Got message [0|1600|67||PONG|1300|4]
+14:22:41 - Buddy 1600 responded with pong
+14:22:41 - Sending message [4|1300|48||PONG|1600|0]
+14:22:41 - Got message [0|1600|68||SEND_BACKUP|1300|4]
+14:22:42 - Sending message [4|1300|49||SEND_BACKUP|1700|20]
+14:22:43 - Got message [20|1700|22||PING|1300|4]
+14:22:44 - Sending message [4|1300|50||PONG|1700|20]
+14:22:45 - Both buddies responded with pong
+14:22:46 - Got message [0|1600|71||SEND_BACKUP|1300|4]
+14:22:46 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:22:47 - Sending message [4|1300|51||SEND_BACKUP|1700|20]
+14:22:47 - Sending message [4|1300|52||PING|1600|0]
+14:22:47 - Sending message [4|1300|53||PING|1700|20]
+14:22:48 - Got message [20|1700|26||PONG|1300|4]
+14:22:48 - Buddy 1700 responded with pong
+14:22:48 - Got message [0|1600|72||PONG|1300|4]
+14:22:48 - Buddy 1600 responded with pong
+14:22:48 - Got message [0|1600|74||PING|1300|4]
+14:22:48 - Sending message [4|1300|54||PONG|1600|0]
+14:22:50 - Got message [20|1700|28||PING|1300|4]
+14:22:51 - Sending message [4|1300|55||PONG|1700|20]
+14:22:52 - Sending message [4|1300|56||SEND_BACKUP|1700|20]
+14:22:52 - Got message [0|1600|76||SEND_BACKUP|1300|4]
+14:22:52 - Both buddies responded with pong
+14:22:53 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:22:54 - Sending message [4|1300|58||PING|1700|20]
+14:22:54 - Sending message [4|1300|57||PING|1600|0]
+14:22:55 - Got message [0|1600|77||PONG|1300|4]
+14:22:55 - Buddy 1600 responded with pong
+14:22:55 - Got message [20|1700|31||PONG|1300|4]
+14:22:55 - Buddy 1700 responded with pong
+14:22:55 - Got message [0|1600|79||PING|1300|4]
+14:22:56 - Sending message [4|1300|59||PONG|1600|0]
+14:22:57 - Sending message [4|1300|60||SEND_BACKUP|1700|20]
+14:22:57 - Got message [0|1600|81||SEND_BACKUP|1300|4]
+14:22:57 - Got message [20|1700|34||PING|1300|4]
+14:22:57 - Sending message [4|1300|61||PONG|1700|20]
+14:23:00 - Both buddies responded with pong
+14:23:01 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:01 - Sending message [4|1300|62||PING|1600|0]
+14:23:01 - Sending message [4|1300|63||PING|1700|20]
+14:23:01 - Sending message [4|1300|64||SEND_BACKUP|1700|20]
+14:23:02 - Got message [0|1600|83||SEND_BACKUP|1300|4]
+14:23:02 - Got message [0|1600|82||PONG|1300|4]
+14:23:02 - Buddy 1600 responded with pong
+14:23:02 - Got message [20|1700|37||PONG|1300|4]
+14:23:02 - Buddy 1700 responded with pong
+14:23:02 - Got message [0|1600|85||PING|1300|4]
+14:23:03 - Sending message [4|1300|65||PONG|1600|0]
+14:23:04 - Got message [20|1700|39||PING|1300|4]
+14:23:05 - Sending message [4|1300|66||PONG|1700|20]
+14:23:06 - Pausing for 30000 ms
+14:23:06 - Got message [0|1600|87||SEND_BACKUP|1300|4]
+14:23:07 - Both buddies responded with pong
+14:23:07 - Sending message [4|1300|67||SEND_BACKUP|1700|20]
+14:23:08 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:08 - Sending message [4|1300|69||PING|1700|20]
+14:23:08 - Sending message [4|1300|68||PING|1600|0]
+14:23:09 - Got message [20|1700|42||PONG|1300|4]
+14:23:09 - Buddy 1700 responded with pong
+14:23:09 - Got message [0|1600|90||PONG|1300|4]
+14:23:09 - Buddy 1600 responded with pong
+14:23:09 - Got message [0|1600|89||PING|1300|4]
+14:23:10 - Sending message [4|1300|70||PONG|1600|0]
+14:23:11 - Got message [20|1700|44||PING|1300|4]
+14:23:11 - Sending message [4|1300|71||SEND_BACKUP|1700|20]
+14:23:11 - Got message [0|1600|92||SEND_BACKUP|1300|4]
+14:23:12 - Sending message [4|1300|72||PONG|1700|20]
+14:23:14 - Both buddies responded with pong
+14:23:15 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:15 - Sending message [4|1300|73||PING|1600|0]
+14:23:15 - Sending message [4|1300|74||PING|1700|20]
+14:23:16 - Got message [0|1600|95||PING|1300|4]
+14:23:16 - Got message [20|1700|47||PONG|1300|4]
+14:23:16 - Buddy 1700 responded with pong
+14:23:16 - Got message [0|1600|93||PONG|1300|4]
+14:23:16 - Buddy 1600 responded with pong
+14:23:16 - Sending message [4|1300|76||SEND_BACKUP|1700|20]
+14:23:17 - Sending message [4|1300|75||PONG|1600|0]
+14:23:17 - Got message [0|1600|96||SEND_BACKUP|1300|4]
+14:23:18 - Got message [20|1700|50||PING|1300|4]
+14:23:19 - Sending message [4|1300|77||PONG|1700|20]
+14:23:21 - Both buddies responded with pong
+14:23:21 - Got message [0|1600|98||SEND_BACKUP|1300|4]
+14:23:22 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:22 - Sending message [4|1300|78||SEND_BACKUP|1700|20]
+14:23:22 - Sending message [4|1300|80||PING|1700|20]
+14:23:23 - Sending message [4|1300|79||PING|1600|0]
+14:23:23 - Got message [20|1700|53||PONG|1300|4]
+14:23:23 - Buddy 1700 responded with pong
+14:23:23 - Got message [0|1600|101||PONG|1300|4]
+14:23:23 - Buddy 1600 responded with pong
+14:23:23 - Got message [0|1600|100||PING|1300|4]
+14:23:24 - Sending message [4|1300|81||PONG|1600|0]
+14:23:25 - Got message [20|1700|55||PING|1300|4]
+14:23:26 - Sending message [4|1300|82||PONG|1700|20]
+14:23:27 - Got message [0|1600|103||SEND_BACKUP|1300|4]
+14:23:27 - Sending message [4|1300|83||SEND_BACKUP|1700|20]
+14:23:28 - Both buddies responded with pong
+14:23:29 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:29 - Sending message [4|1300|85||PING|1700|20]
+14:23:29 - Sending message [4|1300|84||PING|1600|0]
+14:23:30 - Got message [20|1700|58||PONG|1300|4]
+14:23:30 - Buddy 1700 responded with pong
+14:23:30 - Got message [0|1600|104||PONG|1300|4]
+14:23:30 - Buddy 1600 responded with pong
+14:23:30 - Got message [0|1600|106||PING|1300|4]
+14:23:30 - Sending message [4|1300|86||PONG|1600|0]
+14:23:32 - Got message [0|1600|108||SEND_BACKUP|1300|4]
+14:23:32 - Sending message [4|1300|87||SEND_BACKUP|1700|20]
+14:23:33 - Got message [20|1700|61||PING|1300|4]
+14:23:33 - Sending message [4|1300|88||PONG|1700|20]
+14:23:35 - Both buddies responded with pong
+14:23:36 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:36 - Sending message [4|1300|90||PING|1700|20]
+14:23:36 - Pausing for 90000 ms
+14:23:36 - Sending message [4|1300|89||PING|1600|0]
+14:23:36 - Got message [0|1600|109||SEND_BACKUP|1300|4]
+14:23:36 - Got message [20|1700|63||PONG|1300|4]
+14:23:36 - Buddy 1700 responded with pong
+14:23:37 - Sending message [4|1300|91||SEND_BACKUP|1700|20]
+14:23:37 - Got message [0|1600|110||PONG|1300|4]
+14:23:37 - Buddy 1600 responded with pong
+14:23:37 - Got message [0|1600|113||PING|1300|4]
+14:23:38 - Sending message [4|1300|92||PONG|1600|0]
+14:23:39 - Got message [20|1700|66||PING|1300|4]
+14:23:40 - Sending message [4|1300|93||PONG|1700|20]
+14:23:42 - Got message [0|1600|115||SEND_BACKUP|1300|4]
+14:23:42 - Both buddies responded with pong
+14:23:42 - Sending message [4|1300|94||SEND_BACKUP|1700|20]
+14:23:43 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:43 - Sending message [4|1300|96||PING|1700|20]
+14:23:44 - Sending message [4|1300|95||PING|1600|0]
+14:23:44 - Got message [20|1700|69||PONG|1300|4]
+14:23:44 - Buddy 1700 responded with pong
+14:23:44 - Got message [0|1600|117||PING|1300|4]
+14:23:44 - Got message [0|1600|118||PONG|1300|4]
+14:23:44 - Buddy 1600 responded with pong
+14:23:45 - Sending message [4|1300|97||PONG|1600|0]
+14:23:46 - Got message [20|1700|71||PING|1300|4]
+14:23:47 - Sending message [4|1300|98||SEND_BACKUP|1700|20]
+14:23:47 - Got message [0|1600|120||SEND_BACKUP|1300|4]
+14:23:47 - Sending message [4|1300|99||PONG|1700|20]
+14:23:49 - Both buddies responded with pong
+14:23:50 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:23:50 - Sending message [4|1300|101||PING|1700|20]
+14:23:50 - Sending message [4|1300|100||PING|1600|0]
+14:23:51 - Got message [0|1600|121||PONG|1300|4]
+14:23:51 - Buddy 1600 responded with pong
+14:23:51 - Got message [0|1600|123||PING|1300|4]
+14:23:51 - Sending message [4|1300|102||SEND_BACKUP|1700|20]
+14:23:52 - Got message [0|1600|124||SEND_BACKUP|1300|4]
+14:23:52 - Got message [20|1700|74||IS_ALIVE|1300|4]
+14:23:52 - Sending message [4|1300|103||PONG|1600|0]
+14:23:53 - Sending message [4|1300|104||PONG|1700|20]
+14:23:56 - 20 with port 1700 SOFT FAILED
+14:23:57 - Sending message [4|1300|105||IS_ALIVE|1700|20]
+14:23:57 - Sending message [4|1300|106||SEND_BACKUP|1700|20]
+14:23:57 - Got message [0|1600|126||SEND_BACKUP|1300|4]
+14:23:58 - Got message [0|1600|128||PING|1300|4]
+14:23:59 - Sending message [4|1300|107||PONG|1600|0]
+14:24:02 - Sending message [4|1300|108||SEND_BACKUP|1700|20]
+14:24:02 - Got message [0|1600|130||SEND_BACKUP|1300|4]
+14:24:05 - Got message [0|1600|132||PING|1300|4]
+14:24:06 - Sending message [4|1300|109||PONG|1600|0]
+14:24:07 - Got message [0|1600|134||SEND_BACKUP|1300|4]
+14:24:07 - 20 with port 1700 HARD FAILED
+14:24:07 - Sending message [4|1300|112|1700|FAILED_NODE|1400|24]
+14:24:07 - Sending message [4|1300|110||SEND_BACKUP|1700|20]
+14:24:07 - Sending message [4|1300|115|1700|FAILED_NODE|1200|48]
+14:24:07 - Sending message [4|1300|113|1700|FAILED_NODE|1100|28]
+14:24:07 - Sending message [4|1300|111|1700|FAILED_NODE|1700|20]
+14:24:07 - Sending message [4|1300|116|1700|FAILED_NODE|1600|0]
+14:24:08 - Sending message [4|1300|114|1700|FAILED_NODE|1800|40]
+14:24:08 - Pinging buddies: [0|localhost|1600], [20|localhost|1700]
+14:24:08 - Got message [48|1200|166|1700|FAILED_NODE_CONFIRM|1300|4]
+14:24:08 - Node 1200 confirmed failure of node: 1700
+14:24:08 - Got message [24|1400|113|1700|FAILED_NODE_CONFIRM|1300|4]
+14:24:08 - Node 1400 confirmed failure of node: 1700
+14:24:08 - Got message [0|1600|135|1700|FAILED_NODE_CONFIRM|1300|4]
+14:24:08 - Node 1600 confirmed failure of node: 1700
+14:24:08 - Got message [28|1100|167|1700|FAILED_NODE_CONFIRM|1300|4]
+14:24:08 - Node 1100 confirmed failure of node: 1700
+14:24:08 - Sending message [4|1300|118||PING|1700|20]
+14:24:08 - Got message [40|1800|97|1700|FAILED_NODE_CONFIRM|1300|4]
+14:24:08 - Node 1800 confirmed failure of node: 1700
+14:24:08 - Got message [24|1400|124|1700|REMOVE_NODE|1300|4]
+14:24:08 - After remove nodes: [[24|localhost|1400], [28|localhost|1100], [40|localhost|1800], [48|localhost|1200], [0|localhost|1600]]
+14:24:08 - New chord state: All nodes: [[24|localhost|1400], [28|localhost|1100], [40|localhost|1800], [48|localhost|1200], [0|localhost|1600]]
+Successor table: [0] - [24|localhost|1400]
+[1] - [24|localhost|1400]
+[2] - [24|localhost|1400]
+[3] - [24|localhost|1400]
+[4] - [24|localhost|1400]
+[5] - [40|localhost|1800]
+ successorTable: [[24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [24|localhost|1400], [40|localhost|1800]]
+My values:
+{32=[Private] files/file2.txt, 30=[Public] files/file0.txt, 31=[Public] files/file1.txt}
+14:24:08 - Failed node with port 1700 removed, sending message to successor
+14:24:08 - Sending remove message to 1400
+14:24:08 - Got message [24|1400|118|1700|FAILED_NODE|1300|4]
+14:24:08 - Sending message [4|1300|117||PING|1600|0]
+14:24:09 - Sending message [4|1300|120|1700|FAILED_NODE_CONFIRM|1400|24]
+14:24:09 - Got message [24|1400|137|1700|REMOVE_NODE|1300|4]
+14:24:09 - Failed node with port 1700 removed, sending message to successor
+14:24:09 - Sending remove message to 1400
+14:24:09 - Got message [0|1600|138||PONG|1300|4]
+14:24:09 - Buddy 1600 responded with pong
+14:24:09 - Sending message [24|1400|119|1700|REMOVE_NODE|1400|24]
+14:24:09 - Got message [24|1400|139|1700|REMOVE_NODE|1300|4]
+14:24:09 - Failed node with port 1700 removed, sending message to successor
+14:24:09 - Sending remove message to 1400
+14:24:10 - Sending message [24|1400|122|1700|REMOVE_NODE|1400|24]
+14:24:10 - Sending message [24|1400|121|1700|REMOVE_NODE|1400|24]
+14:24:10 - Got message [24|1400|140|1700|REMOVE_NODE|1300|4]
+14:24:10 - Failed node with port 1700 removed, sending message to successor
+14:24:10 - Sending remove message to 1400
+14:24:11 - Sending message [24|1400|123|1700|REMOVE_NODE|1400|24]
+14:24:11 - Got message [24|1400|141|1700|REMOVE_NODE|1300|4]
+14:24:11 - Failed node with port 1700 removed, sending message to successor
+14:24:11 - Sending remove message to 1400
+14:24:11 - Got message [24|1400|126||PING|1300|4]
+14:24:11 - Sending message [4|1300|125||PONG|1400|24]
+14:24:12 - Got message [0|1600|142||SEND_BACKUP|1300|4]
+14:24:12 - Sending message [24|1400|124|1700|REMOVE_NODE|1400|24]
+14:24:12 - Got message [0|1600|144||PING|1300|4]
+14:24:12 - Sending message [4|1300|126||SEND_BACKUP|1400|24]
+14:24:12 - Sending message [4|1300|127||PONG|1600|0]
+14:24:14 - 20 with port 1700 SOFT FAILED
+14:24:16 - Got message [0|1600|146||SEND_BACKUP|1300|4]
+14:24:17 - Sending message [4|1300|128||SEND_BACKUP|1400|24]
+14:24:18 - Got message [24|1400|131||PING|1300|4]
+14:24:19 - Sending message [4|1300|129||PONG|1400|24]
+14:24:19 - Got message [0|1600|148||PING|1300|4]
+14:24:19 - Sending message [4|1300|130||PONG|1600|0]
+14:24:22 - Got message [0|1600|150||SEND_BACKUP|1300|4]
+14:24:22 - Sending message [4|1300|131||SEND_BACKUP|1400|24]
+14:24:25 - Got message [24|1400|135||PING|1300|4]
+14:24:25 - Sending message [4|1300|132||PONG|1400|24]
+14:24:26 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:24:26 - Sending message [4|1300|134||PING|1400|24]
+14:24:26 - Sending message [4|1300|133||PING|1600|0]
+14:24:26 - Got message [0|1600|152||PING|1300|4]
+14:24:26 - Got message [24|1400|138||PONG|1300|4]
+14:24:26 - Buddy 1400 responded with pong
+14:24:26 - Sending message [4|1300|136||PONG|1600|0]
+14:24:27 - Got message [0|1600|154||PONG|1300|4]
+14:24:27 - Buddy 1600 responded with pong
+14:24:27 - Sending message [4|1300|135||SEND_BACKUP|1400|24]
+14:24:27 - Got message [0|1600|153||SEND_BACKUP|1300|4]
+14:24:32 - Both buddies responded with pong
+14:24:32 - Got message [0|1600|156||SEND_BACKUP|1300|4]
+14:24:32 - Sending message [4|1300|137||SEND_BACKUP|1400|24]
+14:24:32 - Got message [24|1400|141||PING|1300|4]
+14:24:32 - Sending message [4|1300|138||PONG|1400|24]
+14:24:33 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:24:33 - Got message [0|1600|158||PING|1300|4]
+14:24:33 - Sending message [4|1300|139||PING|1600|0]
+14:24:33 - Sending message [4|1300|140||PING|1400|24]
+14:24:34 - Sending message [4|1300|141||PONG|1600|0]
+14:24:34 - Got message [24|1400|143||PONG|1300|4]
+14:24:34 - Buddy 1400 responded with pong
+14:24:34 - Got message [0|1600|159||PONG|1300|4]
+14:24:34 - Buddy 1600 responded with pong
+14:24:37 - Sending message [4|1300|142||SEND_BACKUP|1400|24]
+14:24:37 - Got message [0|1600|161||SEND_BACKUP|1300|4]
+14:24:39 - Both buddies responded with pong
+14:24:39 - Got message [24|1400|146||PING|1300|4]
+14:24:40 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:24:40 - Sending message [4|1300|143||PONG|1400|24]
+14:24:40 - Sending message [4|1300|144||PING|1600|0]
+14:24:40 - Got message [0|1600|163||PING|1300|4]
+14:24:40 - Sending message [4|1300|145||PING|1400|24]
+14:24:40 - Got message [0|1600|164||PONG|1300|4]
+14:24:40 - Buddy 1600 responded with pong
+14:24:41 - Got message [24|1400|148||PONG|1300|4]
+14:24:41 - Buddy 1400 responded with pong
+14:24:41 - Sending message [4|1300|146||PONG|1600|0]
+14:24:42 - Got message [0|1600|166||SEND_BACKUP|1300|4]
+14:24:42 - Sending message [4|1300|147||SEND_BACKUP|1400|24]
+14:24:46 - Both buddies responded with pong
+14:24:46 - Got message [24|1400|151||PING|1300|4]
+14:24:47 - Sending message [4|1300|148||PONG|1400|24]
+14:24:47 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:24:47 - Sending message [4|1300|149||SEND_BACKUP|1400|24]
+14:24:47 - Got message [0|1600|167||SEND_BACKUP|1300|4]
+14:24:47 - Sending message [4|1300|150||PING|1600|0]
+14:24:47 - Got message [0|1600|169||PING|1300|4]
+14:24:47 - Sending message [4|1300|151||PING|1400|24]
+14:24:47 - Sending message [4|1300|152||PONG|1600|0]
+14:24:48 - Got message [24|1400|154||PONG|1300|4]
+14:24:48 - Buddy 1400 responded with pong
+14:24:48 - Got message [0|1600|170||PONG|1300|4]
+14:24:48 - Buddy 1600 responded with pong
+14:24:52 - Got message [0|1600|172||SEND_BACKUP|1300|4]
+14:24:52 - Sending message [4|1300|153||SEND_BACKUP|1400|24]
+14:24:53 - Both buddies responded with pong
+14:24:53 - Got message [24|1400|157||PING|1300|4]
+14:24:54 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:24:54 - Sending message [4|1300|154||PONG|1400|24]
+14:24:54 - Sending message [4|1300|156||PING|1400|24]
+14:24:54 - Sending message [4|1300|155||PING|1600|0]
+14:24:54 - Got message [0|1600|174||PING|1300|4]
+14:24:55 - Sending message [4|1300|157||PONG|1600|0]
+14:24:55 - Got message [24|1400|159||PONG|1300|4]
+14:24:55 - Buddy 1400 responded with pong
+14:24:55 - Got message [0|1600|175||PONG|1300|4]
+14:24:55 - Buddy 1600 responded with pong
+14:24:57 - Got message [0|1600|177||SEND_BACKUP|1300|4]
+14:24:57 - Sending message [4|1300|158||SEND_BACKUP|1400|24]
+14:25:00 - Both buddies responded with pong
+14:25:00 - Got message [24|1400|162||PING|1300|4]
+14:25:00 - Sending message [4|1300|159||PONG|1400|24]
+14:25:01 - Pinging buddies: [0|localhost|1600], [24|localhost|1400]
+14:25:01 - Sending message [4|1300|161||PING|1400|24]
+14:25:02 - Sending message [4|1300|162||SEND_BACKUP|1400|24]
+14:25:02 - Sending message [4|1300|160||PING|1600|0]
+14:25:02 - Got message [24|1400|165||PONG|1300|4]
+14:25:02 - Buddy 1400 responded with pong
+14:25:06 - Stopping...
+14:25:07 - Sending message [4|1300|163||SEND_BACKUP|1400|24]
+14:25:07 - 0 with port 1600 SOFT FAILED
+14:25:07 - Sending message [4|1300|164||IS_ALIVE|1600|0]

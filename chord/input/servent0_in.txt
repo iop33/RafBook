@@ -1,0 +1,10 @@
+enter
+pause 60000
+pause 20000
+add_file file1.txt public
+pause 10000
+info
+pause 50000
+pause 30000
+pause 90000
+stop

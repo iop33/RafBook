@@ -1,0 +1,13 @@
+pause 40000
+enter
+pause 20000
+add_friend 1200
+pause 20000
+pause 20000
+add_file file2.txt private
+pause 5000
+pause 5000
+pause 30000
+pause 20000
+pause 90000
+stop

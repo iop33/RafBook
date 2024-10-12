@@ -1,0 +1,19 @@
+14:22:18 - Error while reading file: WAIT
+14:22:42 - Error while reading file: WAIT
+14:24:09 - Couldn't find node with port 1700
+14:24:09 - Couldn't find node with port 1700
+14:25:02 - Couldn't send message: [48|1200|212||PING|1600|0] - Connection refused: connect - null
+14:25:02 - Couldn't send message: [48|1200|210||SEND_BACKUP|1600|0] - Connection refused: connect - null
+14:25:07 - Couldn't send message: [48|1200|214||SEND_BACKUP|1600|0] - Connection refused: connect - null
+14:25:08 - Couldn't send message: [48|1200|215||IS_ALIVE|1600|0] - Connection refused: connect - null
+14:25:12 - Couldn't send message: [48|1200|216||SEND_BACKUP|1600|0] - Connection refused: connect - null
+14:25:17 - Couldn't send message: [48|1200|217||SEND_BACKUP|1600|0] - Connection refused: connect - null
+14:25:19 - Couldn't send message: [48|1200|221|1600|FAILED_NODE|1100|28] - Connection refused: connect - null
+14:25:19 - Couldn't send message: [48|1200|219|1600|FAILED_NODE|1300|4] - Connection refused: connect - null
+14:25:19 - Couldn't send message: [48|1200|218|1600|FAILED_NODE|1600|0] - Connection refused: connect - null
+14:25:19 - Couldn't send message: [48|1200|222|1600|FAILED_NODE|1800|40] - Connection refused: connect - null
+14:25:20 - Couldn't send message: [48|1200|224||PING|1600|0] - Connection refused: connect - null
+14:25:20 - Couldn't send message: [48|1200|223||PING|1800|40] - Connection refused: connect - null
+14:25:22 - Couldn't send message: [48|1200|225||SEND_BACKUP|1600|0] - Connection refused: connect - null
+14:25:26 - Couldn't send message: [48|1200|226||IS_ALIVE|1800|40] - Connection refused: connect - null
+14:25:26 - Couldn't send message: [48|1200|227||IS_ALIVE|1600|0] - Connection refused: connect - null

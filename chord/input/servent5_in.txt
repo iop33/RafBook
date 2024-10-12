@@ -1,0 +1,9 @@
+pause 50000
+pause 10000
+pause 20000
+enter
+add_file file3.txt private
+pause 10000
+get_from_port localhost:1100
+pause 90000
+stop

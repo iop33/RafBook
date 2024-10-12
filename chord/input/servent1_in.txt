@@ -1,0 +1,15 @@
+pause 10000
+enter
+pause 50000
+pause 20000
+pause 10000
+add_friend 1100
+get_from_port localhost:1100
+pause 10000
+pause 15000
+get_from_port localhost:1100
+pause 25000
+pause 15000
+pause 30000
+pause 90000
+stop
